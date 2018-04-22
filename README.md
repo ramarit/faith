@@ -9,6 +9,23 @@
 <p>The theme uses the Bulma which is an opensource CSS Framework based on Flexbox</p 
 <p>https://bulma.io/</p>
 
+Install Hugo:
+<br>
+Mac OS
+```bash
+$ brew install hugo 
+```
+
+Windows
+```bash
+$ choco install hugo -confirm 
+```
+
+Linux
+```bash
+$ snap install hugo 
+```
+
 To Run locally:
 ```bash
 $ (cd themes/hugo-fresh && make setup && make dev)
