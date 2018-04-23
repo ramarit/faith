@@ -4,6 +4,9 @@ title: 'Faith: What Are You Hoping For?'
 theme: hugo-fresh
 
 params:
+  navbar:
+    logoSrc: landing_page/logo-small-black.png
+    logoAlt: PT
   hero:
     tagline: 'FAITH: What Are You Hoping For? (DVD + Study Guide Bundle)'
     subTagline: Join pastor and best-selling author Paul David Tripp on a powerful 9 session journey through Hebrews 11 to discover how to live a hope-filled life of faith in Jesus Christ.
