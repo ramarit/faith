@@ -1,0 +1,54 @@
+baseURL: https://faith-3a21a.firebaseapp.com
+languageCode: en-us
+title: 'Faith: What Are You Hoping For?'
+theme: hugo-fresh
+
+params:
+  navbar:
+    logoSrc: landing_page/logo-small-black.png
+    logoAlt: PT
+  hero:
+    tagline: 'FAITH: What Are You Hoping For? (DVD + Study Guide Bundle)'
+    subTagline: Join pastor and best-selling author Paul David Tripp on a powerful 9 session journey through Hebrews 11 to discover how to live a hope-filled life of faith in Jesus Christ.
+    buttonText: Buy Now
+    currentPrice: $59.99
+    priceText: (On sale from $79.99)
+    image: landing_page/faith.png
+    link: https://paul-tripp.myshopify.com/cart/39815533129:1
+  video:
+    tagline: Is Your Faith Working For You?
+    vid: https://player.vimeo.com/video/225462165
+  features:
+    tagline: What is Faith?
+    content1: We all know that the Bible defines faith as "the assurance of things hoped for and the conviction of things not seen" - but do we know how to live by faith in the street-level situations and relationships of our daily Christianity?
+    content2: Using Hebrews 11 as a guide, Paul Tripp will contend that there are no heroes of faith in the Bible. Noah, Abraham, Moses and the others enshrined were weak and messy Christians just like us, who often felt that the call of God was too big for them.
+  sellingPoints:
+    tagline: What Are You Hoping For?
+    sentenceOne: This video series also includes a study guide, filled with helpful application questions, to assist you, your small group, or your church bring faith to life.
+    sentenceTwo: 'You will also discover:'
+    sentenceThree: And other important lessons! Don’t miss out on the opportunity to deepen your faith with renowned Bible teacher Paul Tripp.
+    bulletOne: How God accomplishes big things through little people who have faith
+    bulletTwo: How a lifestyle of faith will radically change your life
+    bulletThree: How to live by faith when life is hard and doesn't make sense
+    bulletFour: How personal weakness and inability is a cornerstone to a lifestyle of faith
+    buttonText: Buy Now
+    currentPrice: $59.99
+    priceText: (On sale from $79.99)
+    link: https://paul-tripp.myshopify.com/cart/39815533129:1
+  clients:
+    tagline: Testimonials
+    # subTagline: Read what our customers have to say
+    clientExamples:
+    - name: Ann Voskamp
+      quote: Simply put, I read everything that Paul Tripp writes. I can't afford to miss one word."
+      image: ann-voskamp-crop.png
+    - name: Elyse Fitzpatrick
+      quote: What I've come to expect from Paul Tripp is consistently deep, transparent, biblical, wise, practical, gospel-driven counsel.
+      image: elyse-fitzpatrick.png
+    - name: Matt Chandler
+      quote: When Paul Tripp teaches, preaches, or writes he does so through the lens of the gospel.
+      image: matt-chandler-crop.png
+  about:
+    tagline: About Paul David Tripp
+    content: Dr. Paul David Tripp is a pastor and an award-winning and best-selling author. With more than 30 books and video series on Christian living, Paul’s driving passion is to connect the transforming power of Jesus Christ to everyday life. Paul and his wife Luella live in Philadelphia; they have four grown children.
+
