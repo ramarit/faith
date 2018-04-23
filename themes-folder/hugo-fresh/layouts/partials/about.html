@@ -1,0 +1,27 @@
+{{- $about := .Site.Params.about -}}
+{{- $tagline := $about.tagline -}}
+{{- $content := $about.content -}}
+<section class="section is-medium">
+    <div class="container">
+        <div class="title-wrapper has-text-centered">
+            <h2 class="title is-2">{{ $tagline }}</h2>
+            <div class="divider is-centered"></div>
+            <br>
+        </div>
+        <br>
+        <div class="content-wrapper">
+            <div class="columns is-vcentered">
+                <div class="content">
+                    <figure class="about">
+                        <div class="author">
+                            <img src="img/landing_page/paul-tripp-head.jpg" alt=""/>
+                        </div>
+                    </figure>
+
+                    <p>{{ $content}}</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,22 @@
+{{- $features := .Site.Params.features -}}
+{{- $tagline := $features.tagline -}}
+{{- $content1 := $features.content1 -}}
+{{- $content2 := $features.content2 -}}
+<section class="section is-medium">
+    <div class="container">
+        <div class="title-wrapper has-text-centered">
+            <h2 class="title is-2">{{ $tagline }}</h2>
+            <div class="divider is-centered"></div>
+            <br>
+        </div>
+        <br>
+        <div class="content-wrapper">
+            <div class="columns is-vcentered">
+                <div class="content">
+                    <p>{{ $content1 }}</p>
+                    <p>{{ $content2 }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

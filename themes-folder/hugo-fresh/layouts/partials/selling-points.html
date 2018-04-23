@@ -1,0 +1,47 @@
+{{- $sellingPoints := .Site.Params.sellingPoints -}}
+{{- $tagline := $sellingPoints.tagline }}
+{{- $sentenceOne := $sellingPoints.sentenceOne }}
+{{- $sentenceTwo := $sellingPoints.sentenceTwo }}
+{{- $sentenceThree := $sellingPoints.sentenceThree }}
+{{- $bulletOne := $sellingPoints.bulletOne }}
+{{- $bulletTwo := $sellingPoints.bulletTwo }}
+{{- $bulletThree := $sellingPoints.bulletThree }}
+{{- $bulletFour := $sellingPoints.bulletFour }}
+{{- $bulletFive := $sellingPoints.bulletFive }}
+{{- $currentPrice := $sellingPoints.currentPrice}}
+{{- $priceText := $sellingPoints.priceText}}
+{{- $buttonText := $sellingPoints.buttonText }}
+{{- $points := $sellingPoints.points }}
+{{- $link := $sellingPoints.link }}
+
+<section class="section section-feature-grey is-medium">
+    <div class="container">
+        <div class="title-wrapper has-text-centered">
+            <h2 class="title is-2">{{ $tagline }}</h2>
+            <div class="divider is-centered"></div>
+        <br>
+    </div>
+    <div class="content-wrapper">
+      <div class="content is-fullwidth">  
+        <p>{{ $sentenceOne }}</p>
+
+        <p>{{ $sentenceTwo }}</p>
+        <ul>
+            <li>{{ $bulletOne }}</li>
+            <li>{{ $bulletTwo }}</li>
+            <li>{{ $bulletThree }}</li>
+            <li>{{ $bulletFour }}</li>
+        </ul>
+        <p>{{ $sentenceThree }}</p>
+        <p><strong>{{ $currentPrice }}</strong> {{ $priceText}}</p>
+        <br>
+          {{- with $buttonText -}}
+          <p class="has-text-left">
+            <a href="{{ $link }}" target=_blank class="button cta is-large rounded primary-btn raised">
+              {{ . }}
+            </a>
+          </p>
+          {{- end -}}
+      </div>
+    </div>
+</section>

@@ -1,0 +1,16 @@
+{{- $navbar := .Site.Params.navbar -}}
+{{- $logoSrc := $navbar.logoSrc -}}
+{{- $logoAlt := $navbar.logoAlt -}}
+<div class="navbar-wrapper navbar-sticky">
+  <div class="hero-head">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <a class="nav-item" href="{{ .Site.BaseURL }}">
+            <img class="brand" src="img/{{ $logoSrc }}" alt="{{ $logoAlt }}">
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>

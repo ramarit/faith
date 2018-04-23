@@ -1,0 +1,30 @@
+{{- $clients := .Site.Params.clients -}}
+{{- $tagline := $clients.tagline -}}
+{{- $clientExamples := $clients.clientExamples -}}
+<section class="section is-medium section-secondary">
+  <div class="container">
+    <div class="title-wrapper pb-40">
+      <h2 class="title is-2 section-title has-text-centered light-text pb-20">
+        {{ $tagline }}
+      </h2>
+    </div>
+
+    <div class="columns is-vcentered mt-10">
+      {{- range $clientExamples -}}
+      <div class="column is-4">
+        <figure class="testimonial">
+          <blockquote>
+            {{ .quote }}
+          </blockquote>
+          <div class="author">
+            <img src="{{ printf "img/landing_page/%s" .image | absURL }}" alt=""/>
+            <h5>
+              {{ .name }}
+            </h5>
+          </div>
+        </figure>
+      </div>
+      {{- end -}}
+    </div>
+  </div>
+</section>
